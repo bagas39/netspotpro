@@ -49,6 +49,8 @@ Bypass the internal digital signature verification method in the main executable
 6. Click **Compile**.
 7. Go to **File > Save Module...** and click **OK**.
 
+https://github.com/user-attachments/assets/ddc27e5f-f406-4ddb-b133-64b798f7953a
+
 ---
 
 ### Step 3: Patch Feature Resolution in NetSpot.Core.Activation.dll
@@ -70,10 +72,17 @@ Force all feature entitlement checks to evaluate to true.
 6. Click **Compile**.
 7. Go to **File > Save Module...** and click **OK**.
 
+
+
+
+
+https://github.com/user-attachments/assets/f5a8dd91-b267-4a85-8e0a-38735dc8a87d
+
+
 ---
 
 ### Step 4: Verification (Proof of Concept)
-
+https://github.com/user-attachments/assets/1d5c5f84-c002-4572-9c6b-67fd2ce704cf
 1. Run `NetSpot.exe`.
 2. Go to **Survey > Start a new survey > Draw it**.
 3. Verify that survey canvas and floor plan generation tools load and function without license or signature errors.
