@@ -34,7 +34,7 @@ Step-by-step instructions for reproducing the binary modifications using dnSpy.
 
 Bypass the internal digital signature verification method in the main executable.
 
-<video src="NetspotExe.mp4" controls width="100%"></video>
+Video walkthrough: [NetspotExe.mp4](NetspotExe.mp4)
 
 1. In dnSpy, go to **File > Open**.
 2. Open `NetSpot.exe`.
@@ -57,7 +57,7 @@ Bypass the internal digital signature verification method in the main executable
 
 Force all feature entitlement checks to evaluate to true.
 
-<video src="netspotcore.mp4" controls width="100%"></video>
+Video walkthrough: [netspotcore.mp4](netspotcore.mp4)
 
 1. In dnSpy, go to **File > Open**.
 2. Open `NetSpot.Core.Activation.dll`.
@@ -78,7 +78,7 @@ Force all feature entitlement checks to evaluate to true.
 
 ### Step 4: Verification (Proof of Concept)
 
-<video src="poc.mp4" controls width="100%"></video>
+Proof of concept video: [poc.mp4](poc.mp4)
 
 1. Run `NetSpot.exe`.
 2. Go to **Survey > Start a new survey > Draw it**.
