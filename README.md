@@ -6,7 +6,7 @@ Pre-packaged release archive is available in [GitHub Releases](https://github.co
 
 ---
 
-## Target Workstation Setup
+## How To Reproduce
 
 Running patched .NET assemblies invalidates their original strong name signature, causing the CLR to throw `FileLoadException`. Run the following commands in an elevated Command Prompt (Run as administrator) before launching the application:
 
